@@ -150,3 +150,9 @@ main {
   font-weight: bold;
   color: var(--desaturated-blue);
 }
+
+@media (min-width: 768px) {
+  main {
+    background-image: url("./images/pattern-background-desktop.svg");
+  }
+}
